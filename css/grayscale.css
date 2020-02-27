@@ -1,0 +1,421 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+.haha{
+margin-top: 500px;;
+}
+#mainNav {
+  min-height: 56px;
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #c49b63;
+  border: 1px solid #c49b63;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #161616;
+  font-weight: 700;
+  padding: .9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: white;
+    
+  }
+
+  #mainNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: white;
+  }
+  #mainNav .nav-link:hover {
+    color: white;
+  }
+  #mainNav .nav-link:active {
+    border-bottom: green;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: rgb(56,56,56);
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #c49b63;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #c49b63;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #c49b63;
+    outline: none;
+    border-bottom: 0.25rem solid #c49b63;
+  }
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead1 {
+  position: relative;
+  width: 100%;
+  height: 0%;
+
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.user{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+
+
+.masthead::after{
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%);
+  
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 15pt;
+  color: white;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  color: white;
+}
+
+.login{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 300px;
+}
+
+.login1{
+  
+  margin-top: 350px;
+  margin-left: -206px;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 15pt;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+.btn {
+  border-radius: 50px;;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+  padding: 10px;
+  width: 120px;
+}
+.btn1 {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+  padding: 10px;
+  
+}
+
+
+.btn-primary {
+  background-color: #c49b63;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+.about-section {
+  padding-top: 5rem;
+  font-family: 'Nunito';
+  background-color: rgba(22, 22, 22, 0.9) ;
+  /* background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
+}
+
+.about-section p {
+  color: white;
+  text-align: justify;
+  text-align-last: center;
+  
+  
+}
+
+.text-black{
+  text-align: justify;
+}
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+.tabeluser{
+  background-color: #c49b63;
+  color: white;
+  margin: 90rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #c49b63;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #c49b63;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.contact-section {
+  padding: 5rem 0 0;
+
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #c49b63;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #c49b63;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgb(219, 219, 219);
+}
+
+.contact-section .social a:hover {
+  color:white;
+}
+
+.contact-section .social a:active {
+  color: white;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #c49b63;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #8d6e43;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #c49b63 !important;
+}
+
+.text-primary {
+  color: #c49b63 !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+
+
+/* FORM LOGIN */
+/* form */
+
+
+.tabel{
+    width: 90%;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    border: solid 1px rgb(155, 155, 155);
+    height: 30px;
+    padding-left: 10px !important;
+    margin-bottom: 3% ;
+}
+
+
+textarea{
+  border-radius: 20px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+
+  padding-left: 10 px;
+  margin-bottom: 3% ;
+}
+
+.tabel, .radionya{
+   
+    font-size: 10pt;    
+}
+
+.center-cropped {
+    object-fit: cover; 
+    object-position: center; 
+    height: 190px;
+    width: 107%;
+    filter: brightness(50%);
+}
+
+.centered {
+    position: absolute;
+    top: 50;
+    left: 35%;
+    transform: translate(90%, -200%);
+    color: white;
+    
+
+}
+
+select{
+    border-radius: 20px;
+    border: none;
+    border: solid 1px rgb(155, 155, 155);
+}
+
+h7{
+    font-size: 10pt;
+}
+
+.formlog{
+    margin-left: 8%;
+}
+
+.formbtn{
+
+  margin-left: -3%;
+}
+.tbldaftar:hover{
+  text-decoration: underline;
+}
+
+.tbluser{
+  text-align: left !important;
+}
